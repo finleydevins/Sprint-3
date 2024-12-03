@@ -1,0 +1,96 @@
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+body {
+    font-family: Georgia, Times, sans-serif;
+    line-height: 1.4em;
+    margin: 0px;
+    background: url("purple%20background.jpeg");
+}
+
+.wrapper {
+    background-color: white;
+    width: 940px;
+    margin: 0 auto;
+    border: 2px solid purple;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav,
+footer {
+    clear: both;
+    background-color: #a5a4a4;
+    color: white;
+    height: 45px;
+}
+
+nav ul {
+    margin-top: -6px
+}
+
+nav li a {
+    color: white
+}
+
+nav li a:hover,
+.current {
+    color: mediumpurple
+}
+
+a {
+    text-decoration: none
+}
+
+.courses {
+    width: 100%;
+    float: left
+}
+
+figure {
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid lavender;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 80%;
+}
+
+.courses article {
+    overflow: auto;
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+
+a:hover {
+    color: lavender;
+}
+}
+
+h2,
+h3 {
+    font-family: 'sans', 'serif';
+}
+
+
+h3 {
+    color: mediumpurple;
+}
